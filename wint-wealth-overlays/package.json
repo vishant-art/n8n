@@ -1,0 +1,30 @@
+{
+  "name": "wint-wealth-overlays",
+  "version": "1.0.0",
+  "description": "Remotion overlay templates for Wint Wealth Meta ads",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render",
+    "render:all": "remotion render WintWealth-FullOverlay-30s out/full-overlay-30s.mp4",
+    "render:hook1": "remotion render Hook1-Full out/hook1.mp4",
+    "render:hook2": "remotion render Hook2-Full out/hook2.mp4",
+    "render:hook3": "remotion render Hook3-Full out/hook3.mp4",
+    "render:caption": "remotion render Caption-Hook3 out/caption.webm --codec=vp9",
+    "render:stats": "remotion render Stats-Popup out/stats.webm --codec=vp9",
+    "render:comparison": "remotion render FD-vs-Bonds-Comparison out/comparison.webm --codec=vp9",
+    "render:endcard": "remotion render End-Card-CTA out/endcard.mp4",
+    "upgrade": "remotion upgrade"
+  },
+  "keywords": ["remotion", "wint-wealth", "video", "overlay", "meta-ads"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@remotion/bundler": "^4.0.410",
+    "@remotion/cli": "^4.0.410",
+    "@types/react": "^19.2.10",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remotion": "^4.0.410",
+    "typescript": "^5.9.3"
+  }
+}
